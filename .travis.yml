@@ -1,6 +1,6 @@
 language: java
 jdk:
-    - openJDK11
+    - openJDK8
 script: ./mvwn clean install
 
 notifications : 
