@@ -1,6 +1,7 @@
 language: java
 jdk:
-    - openJDK8
+    - openJDK11
 script: ./mvwn clean install
+
 notifications : 
 email : vipul.sharma@in.ibm.com
