@@ -1,4 +1,6 @@
-
 language: java
-sudo: false
-script: mvn clean verify
+jdk:
+    - openJDK8
+script: ./mvwn clean install
+notifications : 
+email : vipul.sharma@in.ibm.com
